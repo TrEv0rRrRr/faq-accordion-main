@@ -1,0 +1,37 @@
+.container__main {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.container__main__faq {
+  max-width: 38rem;
+}
+
+.container__main__faq__question {
+  display: flex;
+  cursor: pointer;
+  color: var(--dark-purple);
+  font-weight: var(--fw-medium);
+  margin-bottom: 25px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 33px;
+  font-size: 1.05rem;
+}
+
+.container__main__faq__answer {
+  line-height: 1.6rem;
+  font-size: 1rem;
+}
+
+.container__main__faq__question:hover {
+  color: var(--hover-purple);
+}
+
+@media screen and (max-width: 768px) {
+  .container__main__faq__answer {
+    line-height: 1.6rem;
+    font-size: 0.9rem;
+  }
+}

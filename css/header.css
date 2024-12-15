@@ -1,0 +1,31 @@
+.container__header {
+  display: flex;
+  width: 100%;
+}
+
+.container__header__logo {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.container__header_image {
+  width: 40px;
+  height: 40px;
+}
+
+.container__header__title {
+  font-size: 3rem;
+  font-weight: var(--fw-bold);
+  color: var(--dark-purple);
+}
+
+@media screen and (max-width: 768px) {
+  .container__header_image {
+    width: 30px;
+    height: 30px;
+  }
+  .container__header__title {
+    font-size: 2.2rem;
+  }
+}
